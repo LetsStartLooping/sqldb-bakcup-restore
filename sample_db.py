@@ -38,7 +38,7 @@ Session = sessionmaker(bind=engine)
 session = Session()
 
 # Add Sample Data to the DB - for Testing
-add_data = True
+add_data = False
 if add_data:
     
     # Add Users
